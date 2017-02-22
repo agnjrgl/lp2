@@ -21,21 +21,15 @@ public class Ponto{
 		System.out.println("Junior");
 		
 		Ponto p1 = new Ponto();
-		p1.setX(10.0);
-		p1.setY(20.0);
-		
+		p1.setX(0);
+		p1.setY(0);
 		Ponto p2 = new Ponto();
-		p2.setY(30.0);
-		p2.setX(15.0);
-		
-		System.out.println(p1.getX() + " - " + p1.getY());		
-		System.out.println(p2.getX() + " - " + p2.getY());		
-		System.out.println();
-		
-		Ponto p3=p1;
-		
-		System.out.println(p1.getX() + " - " + p1.getY());		
-		System.out.println(p2.getX() + " - " + p2.getY());	
-		System.out.println(p3.getX() + " - " + p3.getY());		
+		p1.setX(1);
+		p1.setY(1);
+			
+		double dx=p1.getX()-p2.getX();	
+		double dy=p1.getY()-p2.getY();
+		double distancia=Math.sqrt(Math.pow(dx, 2)+Math.pow(dy, 2));
+		System.out.println(distancia);
 	}
 }
