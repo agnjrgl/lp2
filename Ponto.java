@@ -57,6 +57,13 @@ public class Ponto{
 		p2.setX(1);
 		
 		System.out.println("1 Ponto=> x: "+r1.getP1().getX() +" - y: "+ r1.getP1().getY());
-		System.out.println("2 Ponto=> x: "+r1.getP2().getX() +" - y: "+ r1.getP2().getY()); 
+		System.out.println("2 Ponto=> x: "+r1.getP2().getX() +" - y: "+ r1.getP2().getY());
+		
+		p1.setX(2);
+		p1.setY(3);
+		p2.setX(3);
+		p2.setY(4); 
+
+		System.out.println("Area: " + r1.Area(p1.getX(), p1.getY(), p2.getX(), p2.getY()));
 	}
 }

@@ -16,4 +16,8 @@ public class Reta{
 	public Ponto getP2(){
 		return this.p2;
 	}
+	
+	public double Area(double p1x, double p1y, double p2x, double p2y){
+		return ((p1y+p2y)*Math.abs(p1x-p2x)/2);
+	}
 }
