@@ -8,14 +8,15 @@ class No{
 }
 
 public class Lista{
-	
-	public
-	
-	public Lista(){
-		
+	private	int tam=0;
+	private int NumElementos(){
+		return this.tam;
 	}
+	private No* cabeca=NULL;
 	
 	public void Inserir(int valor){
+		tam=tam+1;
+		this.c
 		
 	}
 	
