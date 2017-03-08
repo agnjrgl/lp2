@@ -1,11 +1,19 @@
 class Quadrado{
 	private double lado;
-	
-	public double CalcularPerimetro(double l){
-		return (4*l);
+
+	public void SetL(double l){
+		this.lado=l;
+	}
+
+	public double GetL(){
+		return this.lado;
 	}
 	
-	public double CalcularArea(double l){
-		return (l*l);
+	public double CalcularPerimetro(){
+		return (4*this.lado);
+	}
+	
+	public double CalcularArea(){
+		return (this.lado*this.lado);
 	}
 }
