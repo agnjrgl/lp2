@@ -33,10 +33,24 @@ public class Principal{
 		aluno5.setIdade(19);
 		alunos.add(aluno5);	
 		
-			
 		Collections.sort(alunos);
-		for(int i=0; i<alunos.size(); i++){
-			System.out.println(alunos.get(i).getNome());
+		
+		for(int i = 0; i < alunos.size(); i++){
+			System.out.println(alunos.get(i).getNome()+" - "+alunos.get(i).getIdade());
 		}
+
+		ArrayList<Disciplina> disciplinas = new ArrayList<Disciplina>();
+		
+		Disciplina disciplina1 = new Disciplina();
+		disciplina1.setNome("LP2");
+		disciplina1.setProfessor("Hebert");
+		disciplinas.add(disciplna1);	
+
+		Disciplina disciplina2 = new Disciplina();
+		disciplina2.setNome("Web");
+		disciplina2.setProfessor("Marcelo");
+		disciplinas.add(disciplna2);	
+		
+		ArrayList<Nota> notas = new ArrayList<Nota>();
 	}
 }

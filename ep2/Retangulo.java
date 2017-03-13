@@ -2,27 +2,27 @@ class Retangulo{
 	private double lado_maior;
 	private double lado_menor;
 
-	public void SetLa(double a){
+	public void setLa(double a){
 		this.lado_maior=a;
 	}
 
-	public double GetLA(){
+	public double getLA(){
 		return this.lado_maior;
 	}
 
-	public void SetLb(double b){
+	public void setLb(double b){
 		this.lado_menor=b;
 	}
 
-	public double GetLb(){
+	public double getLb(){
 		return this.lado_menor;
 	}
 	
-	public double CalcularPerimetro(){
+	public double calcularPerimetro(){
 		return(2*lado_maior+2*lado_menor);
 	}
 	
-	public double CalcularArea(){
+	public double calcularArea(){
 		return (lado_maior*lado_menor);
 	}
 }

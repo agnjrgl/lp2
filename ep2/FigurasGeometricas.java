@@ -1,9 +1,9 @@
 public class FigurasGeometricas{	
-	public double CalcularPerimetro(){
+	public double calcularPerimetro(){
 		return 0;
 	}
 	
-	public double CalcularArea(){
+	public double calcularArea(){
 		return 0;
 	}
 }
